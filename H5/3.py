@@ -1,0 +1,6 @@
+a = int(input("Nummer: "))
+b =  int(input("Nummer: "))
+c = int(input("Nummer: "))
+print("Min: ", min(a,b,c))
+print("Max:", max(a, b, c))
+print("Avg: ", (a + b + c) /3 )

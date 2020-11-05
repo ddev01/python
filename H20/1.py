@@ -19,7 +19,7 @@ class Rectangle:
 p = Point( 3.5, 5.0 )
 print(p)
 print(type(p))
-r = Rectangle( p, -4.0, 2.0 )
+r = Rectangle( p, 4.0, 2.0 )
 print( r )
 
 p.x = 1.0
